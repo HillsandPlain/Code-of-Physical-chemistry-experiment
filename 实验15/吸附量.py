@@ -24,7 +24,7 @@ c_tao_new = zz(c)
 print("吸附量为:",tao)
 print("直线方程为:",zz)
 print("饱和吸附量为:",1/z[0])
-print("面积为:",1/(z[0]*Avogadro))
+print("面积为:",1/((1/z[0])*Avogadro))
 
 plt.plot(c,c_tao,".")
 plt.plot(c,c_tao_new)
